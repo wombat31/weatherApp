@@ -1,0 +1,89 @@
+
+    /*font-family: 'Libre Barcode 128 Text', cursive;
+font-family: 'Amatic SC', cursive;*/
+
+header{
+    display:grid;
+    grid-template-columns: 35% 55% 10%;
+    grid-gap: 10px;
+    background-color:rgba(255, 0, 0, 0.2);
+    height: 35px;
+    border-radius: 10px;
+    
+}
+
+#titleDiv{
+    padding:8px 0px 0px 8px;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 2px;
+}
+
+#inputDiv{
+    padding:7px 0px 0px 8px;
+    
+}
+
+#searchDiv{
+    padding:9px 8px 0px 0px;
+}
+
+#search-txt{
+    width:200px;
+}
+
+
+footer {
+    background-color:rgba(255, 0, 0, 0.2);
+    height: 35px;
+    border-radius: 10px;
+    font-family: 'Libre Barcode 128 Text', cursive;
+    padding-top:10px;
+    text-align: center;
+}
+
+body{
+    background-image:url("bodyBackground.jpg");
+    background-size:100%;
+    
+}
+
+main{
+    display:grid;
+    grid-gap:10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    grid-template-columns: auto auto auto;
+    height:auto;
+    text-align:center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    
+}
+
+#inputHolder{
+    background-color: rgba(0,255,0,0.2);
+    padding-top:30%;
+    border-radius:10px;
+    /*text-align:center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;*/
+    padding-top: 30%;
+}
+
+#temperature{
+    background-color:rgba(0,255,0,0.2);
+    border-radius:10px;
+    /*text-align:center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;*/
+    padding-top: 30%;
+}
+
+#humidity{
+    background-color:rgba(0,255,0,0.2);
+    padding-top:30%;
+    border-radius:10px;
+    /*text-align:center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;*/
+}
